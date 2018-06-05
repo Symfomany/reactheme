@@ -9,12 +9,13 @@ const theme = {
     fiveColor: "#211103",
 
     // Global Properties
-    fontSize: "1.2",
-    fontFamily: "Georgia, Times New Roman, Times, serif !default",
-    bodyBg: this.primaryColor,
+    fontSize: 1.2,
+    fontFamily: "",
 
     // Components
     button: {
+      padding: "10px",
+      borderRadius: "5px",
       outline: "none"
     }
   }

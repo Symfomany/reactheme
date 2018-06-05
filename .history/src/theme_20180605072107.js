@@ -1,4 +1,3 @@
-// https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
 const theme = {
   main: {
     // First Colors
@@ -9,12 +8,12 @@ const theme = {
     fiveColor: "#211103",
 
     // Global Properties
-    fontSize: "1.2",
-    fontFamily: "Georgia, Times New Roman, Times, serif !default",
-    bodyBg: this.primaryColor,
+    fontSize: 1.2,
 
     // Components
     button: {
+      padding: "10px",
+      borderRadius: "5px",
       outline: "none"
     }
   }

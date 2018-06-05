@@ -11,12 +11,7 @@ const theme = {
     // Global Properties
     fontSize: "1.2",
     fontFamily: "Georgia, Times New Roman, Times, serif !default",
-    bodyBg: this.primaryColor,
-
-    // Components
-    button: {
-      outline: "none"
-    }
+    bodyBg: this.primaryColor
   }
 };
 export default theme;

@@ -15,6 +15,8 @@ const theme = {
 
     // Components
     button: {
+      padding: "10px",
+      borderRadius: "5px",
       outline: "none"
     }
   }

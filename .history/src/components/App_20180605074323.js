@@ -15,14 +15,8 @@ class App extends Component {
         <FloatButton>
           <Icon icon="face" />
         </FloatButton>
-        <Flex>
-          <Box width={1 / 2} px={2}>
-            <Card />
-          </Box>
-          <Box width={1 / 2} px={2}>
-            <Card />
-          </Box>
-        </Flex>
+        <Card />
+        <Card />
       </Container>
     );
   }

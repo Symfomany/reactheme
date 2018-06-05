@@ -4,7 +4,6 @@ import { SimpleButton, OutlineButton, FloatButton } from "../styled/Button";
 import Icon from "./Icon";
 import Card from "./Card";
 import { Container } from "../styled/Container";
-import { Flex, Box } from "grid-styled";
 
 class App extends Component {
   render() {
@@ -15,14 +14,7 @@ class App extends Component {
         <FloatButton>
           <Icon icon="face" />
         </FloatButton>
-        <Flex>
-          <Box width={1 / 2} px={2}>
-            <Card />
-          </Box>
-          <Box width={1 / 2} px={2}>
-            <Card />
-          </Box>
-        </Flex>
+        <Card />
       </Container>
     );
   }

@@ -18,7 +18,7 @@ const SimpleButton = styled.button`
   cursor: pointer;
   outline: none;
   &:hover {
-    background-color: ${lighten(0.5, "#7B0D1E")};
+    background-color: ${lighten(0.2, "#7B0D1E")};
   }
 `;
 const OutlineButton = SimpleButton.extend`
@@ -28,7 +28,6 @@ const OutlineButton = SimpleButton.extend`
   box-shadow: none;
   &:hover {
     color: white;
-    background-color: ${lighten(0.2, "#7B0D1E")};
   }
 `;
 const ShadowButton = styled.button`
